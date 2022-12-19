@@ -1,0 +1,201 @@
+[
+  {
+    "_id": "ef3e53c3-f9c0-4d01-93f5-805fe66048e3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/login",
+    "url": "http://localhost:5000/login",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-17T10:08:37.651Z",
+    "modified": "2022-10-17T10:08:37.739Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"islom\",\n  \"password\":\"12345\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8918ca37-4e22-4164-9efc-33dcaee35d39",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/login",
+    "url": "http://localhost:5000/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-10-17T10:08:42.829Z",
+    "modified": "2022-10-17T10:08:42.962Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"islom\",\n  \"password\":\"12345\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "71d73e53-6d9f-4e63-9e2d-43419bbbff37",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/categories",
+    "url": "http://localhost:5000/events/7?status=new",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-17T10:10:39.175Z",
+    "modified": "2022-10-17T23:20:25.623Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJpYXQiOjE2NjYwMDEzMjJ9.LJ5hlO0oF5AD7QwiSka5nQBrz-spTc7CbDwKmmjUiYg"
+      }
+    ],
+    "params": [
+      {
+        "name": "status",
+        "value": "new",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "body",
+          "value": "derftgyhujikolftgybhunim"
+        },
+        {
+          "name": "description",
+          "value": "tez kunda ajoyib dasturchi"
+        },
+        {
+          "name": "event_type",
+          "value": "online"
+        },
+        {
+          "name": "event_date",
+          "value": "21/10/2022"
+        },
+        {
+          "name": "event_time",
+          "value": "8:00"
+        },
+        {
+          "name": "event_link",
+          "value": "cvbjk@com"
+        },
+        {
+          "name": "user_role",
+          "value": "jismoniy"
+        },
+        {
+          "name": "user_name",
+          "value": "abdullau"
+        },
+        {
+          "name": "user_proff",
+          "value": "menejer"
+        },
+        {
+          "name": "phone_number",
+          "value": "+998909876543"
+        },
+        {
+          "name": "phone_second",
+          "value": "+998976543221"
+        },
+        {
+          "name": "category_id",
+          "value": "3"
+        },
+        {
+          "name": "sub_category_id",
+          "value": "6"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "..\\..\\..\\..\\..\\Downloads\\Telegram Desktop\\tg_img\\photo_2022-05-13_14-45-46.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2a527758-361a-40c4-88f1-dd61d333b8df",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/categories/4",
+    "url": "http://localhost:5000/categories/4",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-17T10:11:30.711Z",
+    "modified": "2022-10-17T10:11:30.818Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJpYXQiOjE2NjYwMDEzMjJ9.LJ5hlO0oF5AD7QwiSka5nQBrz-spTc7CbDwKmmjUiYg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"islom\",\n  \"password\":\"12345\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6426bdcd-af44-4e9d-bb40-3f48f71d64f3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/categories/3",
+    "url": "http://localhost:5000/categories/3",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-17T10:11:32.660Z",
+    "modified": "2022-10-17T10:11:32.793Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJpYXQiOjE2NjYwMDEzMjJ9.LJ5hlO0oF5AD7QwiSka5nQBrz-spTc7CbDwKmmjUiYg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"islom\",\n  \"password\":\"12345\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "67056d25-70bc-4229-8336-e15ec3bc0b42",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/categories/2",
+    "url": "http://localhost:5000/categories",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-17T10:11:34.528Z",
+    "modified": "2022-10-17T22:43:24.806Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJpYXQiOjE2NjYwMDEzMjJ9.LJ5hlO0oF5AD7QwiSka5nQBrz-spTc7CbDwKmmjUiYg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"islom\",\n  \"password\":\"12345\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
